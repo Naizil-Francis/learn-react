@@ -1,14 +1,13 @@
-function App() {
-  const name = "Naizil";
-  const age = 23;
-  const city = "Bengaluru";
+import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
+import Dashboard from "./pages/Dashboard";
 
+function App() {
   return (
     <>
-      <h1>My Profile</h1>
-      <p>Name: {name}</p>
-      <p>Age: {age}</p>
-      <p>City: {city}</p>
+      <Navbar />
+      <Sidebar />
+      <Dashboard />
     </>
   );
 }
